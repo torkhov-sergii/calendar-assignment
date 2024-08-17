@@ -1,0 +1,16 @@
+{
+    "name": "zavr/calendar-assignment",
+    "description": "Api for calendar",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Torkhov",
+            "email": "torhov.s@gmail.com"
+        }
+    ],
+    "require": {}
+}
