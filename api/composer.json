@@ -1,5 +1,5 @@
 {
-    "name": "zavr/calendar-assignment",
+    "name": "calendar-assignment",
     "description": "Api for calendar",
     "autoload": {
         "psr-4": {
@@ -8,9 +8,11 @@
     },
     "authors": [
         {
-            "name": "Torkhov",
+            "name": "Torkhov Sergii",
             "email": "torhov.s@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "nesbot/carbon": "^3.7"
+    }
 }
