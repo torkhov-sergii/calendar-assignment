@@ -1,5 +1,5 @@
 {
-    "name": "calendar-assignment",
+    "name": "torkhov-sergii/calendar-assignment",
     "description": "Api for calendar",
     "autoload": {
         "psr-4": {
