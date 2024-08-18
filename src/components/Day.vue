@@ -12,14 +12,20 @@ export default {
 
 <style scoped>
 .calendar-day {
-  margin: 2px;
+  flex: 1 1 0px;
+  margin: 0px;
 
   text-align: center;
-  padding: 10px;
-  border: 1px solid #ddd;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &.marked {
-    background: #f00;
+    background: rgba(102, 204, 247, 0.8);
+    border: none;
+    color: #fff;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
   }
 
   &.hide {

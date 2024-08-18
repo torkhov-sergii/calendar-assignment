@@ -97,14 +97,31 @@ export default {
 
 <style>
 .calendar {
+  border: 1px solid #fff;
   padding: 20px;
+  width: 360px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), inset 0 0 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
-.calendar-header {}
+.calendar-header {
+  font-weight: bold;
+}
 
 .calendar-weekdays {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+
+  div {
+    flex: 1 1 0px;
+    margin: 1px;
+
+    text-align: left;
+    padding: 5px 0;
+  }
 }
 
 .calendar-days {}
@@ -112,5 +129,11 @@ export default {
 .calendar-week {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .calendar {
+    width: 100%;
+  }
 }
 </style>
